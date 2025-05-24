@@ -1,0 +1,39 @@
+.sidebar {
+    display: flex;
+    flex-direction: column;
+    padding: 0 2rem;
+    border: 1px solid turquoise;
+}
+
+.section {
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+    flex-grow: 1;
+}
+
+.categoryTitle {
+    color: var(--softGray);
+    text-transform: capitalize;
+    padding: 15px 0;
+}
+
+.navLinkFlex {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    padding: 15px 0;
+}
+
+.navLink {
+    display: flex;
+    justify-content: start;
+    gap: 15px;
+}
+
+.navLinkBottom {
+    margin-top: 4rem;
+    display: flex;
+    justify-content: start;
+    gap: 15px;
+}

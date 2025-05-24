@@ -46,7 +46,7 @@
 html,
 body {
     background-color: var(--backColor);
-    overflow-x: hidden;
+    overflow: hidden;
 }
 
 .container {
@@ -54,6 +54,24 @@ body {
     max-width: 1440px;
     padding: 0 1rem;
     margin: 0 auto;
+}
+
+.sideBar {
+    max-width: 300px;
+    border: 1px solid red;
+}
+
+.margin-top {
+    margin-top: 20px;
+}
+
+.flex {
+    display: flex;
+    gap: 1rem;
+}
+
+.flex-grow {
+    flex-grow: 1;
 }
 
 /* Medium screens (e.g., tablets) */
