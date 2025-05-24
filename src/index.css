@@ -38,13 +38,13 @@
 
 /* Reset and Global Styles */
 * {
+    margin: 0;
+    padding: 0;
     box-sizing: border-box;
 }
 
 html,
 body {
-    margin: 0;
-    padding: 0;
     background-color: var(--backColor);
     overflow-x: hidden;
 }
@@ -52,9 +52,8 @@ body {
 .container {
     width: 100%;
     max-width: 1440px;
-    margin-right: auto;
-    margin-left: auto;
     padding: 0 1rem;
+    margin: 0 auto;
 }
 
 /* Medium screens (e.g., tablets) */
