@@ -1,46 +1,72 @@
 :root {
-  font-family: "Poppins", sans-serif;
-  line-height: 1.5;
-  font-weight: 400;
-  --aquaBlue: #00C9C8;
-  --darkBlue: #2F2E73;
-  --lightGray: #F9FBFF;
-  /* Sidebar Background */
-  --white: #FFFFFF;
-  --backColor: #EAF3FB;
-  /* Background Color */
-  --blue: #2F2E73;
-  --softGray: A0A3BD;
+    font-family: "Poppins", sans-serif;
+    line-height: 1.5;
+    font-weight: 400;
 
-
-  /*  */
-  /*  */
-  --: #;
+    /* Color Variables */
+    --aquaBlue: #00C9C8;
+    --darkBlue: #2F2E73;
+    /* Sidebar Background */
+    --lightGray: #F9FBFF;
+    --white: #FFFFFF;
+    /* Background Color */
+    --backColor: #EAF3FB;
+    --blue: #2F2E73;
+    --softGray: #A0A3BD;
 }
 
+/* Font Utility Classes */
 .poppins {
-  font-family: "Poppins", sans-serif;
-  font-weight: 400;
-  font-style: normal;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
 }
 
 .inter {
-  font-family: "Inter", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: 500;
-  font-style: normal;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
 }
 
 .dm-sans {
-  font-family: "DM Sans", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: 500;
-  font-style: normal;
+    font-family: "DM Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
 }
 
+/* Reset and Global Styles */
+* {
+    box-sizing: border-box;
+}
 
+html,
 body {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background-color: var(--backColor);
+    overflow-x: hidden;
+}
+
+.container {
+    width: 100%;
+    max-width: 1440px;
+    margin-right: auto;
+    margin-left: auto;
+    padding: 0 1rem;
+}
+
+/* Medium screens (e.g., tablets) */
+@media (max-width: 1024px) {
+    .container {
+        padding: 0 1.5rem;
+    }
+}
+
+/* Small screens (e.g., phones) */
+@media (max-width: 768px) {
+    .container {
+        padding: 0 1rem;
+    }
 }

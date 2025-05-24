@@ -1,0 +1,18 @@
+.header {
+    border: 1px solid red;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logoDiv {
+    min-width: 260px;
+    min-height: 90px;
+    max-width: 260px;
+    max-height: 90px;
+}
+
+.logoImage {
+    width: auto;
+    height: auto;
+}
